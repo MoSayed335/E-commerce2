@@ -1,0 +1,512 @@
+{
+  "Controllers/Admin/BannersController.cs": {
+    "mtime": 1786176886.0290964,
+    "ast_hash": "552c9563e9cee726e48b38bd1e1c6ec9",
+    "semantic_hash": "552c9563e9cee726e48b38bd1e1c6ec9"
+  },
+  "Controllers/Admin/CategoriesController.cs": {
+    "mtime": 1786175806.1871898,
+    "ast_hash": "01e3f77ad588e8fe354102c81a3dc5e3",
+    "semantic_hash": "01e3f77ad588e8fe354102c81a3dc5e3"
+  },
+  "Controllers/Admin/ColorsController.cs": {
+    "mtime": 1786176887.1051178,
+    "ast_hash": "ea6c4848f1104249007d7a31aaf553e4",
+    "semantic_hash": "ea6c4848f1104249007d7a31aaf553e4"
+  },
+  "Controllers/Admin/CouponsController.cs": {
+    "mtime": 1786172870.9128277,
+    "ast_hash": "181d05e45d6db4c3001c70a513f1891d",
+    "semantic_hash": "181d05e45d6db4c3001c70a513f1891d"
+  },
+  "Controllers/Admin/CustomersController.cs": {
+    "mtime": 1786174489.1161795,
+    "ast_hash": "4509bb8c04c33688c729f3e706954e4b",
+    "semantic_hash": "4509bb8c04c33688c729f3e706954e4b"
+  },
+  "Controllers/Admin/OrdersController.cs": {
+    "mtime": 1786160465.4624212,
+    "ast_hash": "0e0a36ace1d08944cd6de044f922feea",
+    "semantic_hash": "0e0a36ace1d08944cd6de044f922feea"
+  },
+  "Controllers/Admin/ProductsController.cs": {
+    "mtime": 1786172008.0329282,
+    "ast_hash": "f09d238b6e96a9d21be7ab80365a0bd2",
+    "semantic_hash": "f09d238b6e96a9d21be7ab80365a0bd2"
+  },
+  "Controllers/Admin/ReviewsController.cs": {
+    "mtime": 1786173205.8879006,
+    "ast_hash": "87d0de7290f9bc5b715f0190b8253a5e",
+    "semantic_hash": "87d0de7290f9bc5b715f0190b8253a5e"
+  },
+  "Controllers/Admin/ShippingController.cs": {
+    "mtime": 1786172538.910614,
+    "ast_hash": "2af6327ed556a18e402f154433682896",
+    "semantic_hash": "2af6327ed556a18e402f154433682896"
+  },
+  "Controllers/Admin/SizesController.cs": {
+    "mtime": 1786176888.0956004,
+    "ast_hash": "1ad9a92829e98f66145b03c1f0597d71",
+    "semantic_hash": "1ad9a92829e98f66145b03c1f0597d71"
+  },
+  "Controllers/Admin/UploadsController.cs": {
+    "mtime": 1786176889.1001236,
+    "ast_hash": "e61effe71481cbcfd1c97c67c5b6e15e",
+    "semantic_hash": "e61effe71481cbcfd1c97c67c5b6e15e"
+  },
+  "Controllers/AuthController.cs": {
+    "mtime": 1786175956.2856169,
+    "ast_hash": "b19c7f27999fc396939b5104ee8976d5",
+    "semantic_hash": "b19c7f27999fc396939b5104ee8976d5"
+  },
+  "Controllers/Customer/OrdersController.cs": {
+    "mtime": 1786138578.0038078,
+    "ast_hash": "9184007bc0d0dc091860fea259ffa660",
+    "semantic_hash": "9184007bc0d0dc091860fea259ffa660"
+  },
+  "Controllers/Customer/ProductsController.cs": {
+    "mtime": 1786138578.0038078,
+    "ast_hash": "b1c3e6432dc64ef9c9430e4f31ebabd9",
+    "semantic_hash": "b1c3e6432dc64ef9c9430e4f31ebabd9"
+  },
+  "Controllers/ProfileController.cs": {
+    "mtime": 1786175958.359877,
+    "ast_hash": "25d8d52a382c9e73855682fb218daecd",
+    "semantic_hash": "25d8d52a382c9e73855682fb218daecd"
+  },
+  "Controllers/Storefront/BannersController.cs": {
+    "mtime": 1786176311.346794,
+    "ast_hash": "0444652544b84a0ed46e373afe77008c",
+    "semantic_hash": "0444652544b84a0ed46e373afe77008c"
+  },
+  "Controllers/Storefront/CartController.cs": {
+    "mtime": 1786175597.2044911,
+    "ast_hash": "0ca73cedce9bc40101fc29353fe4c695",
+    "semantic_hash": "0ca73cedce9bc40101fc29353fe4c695"
+  },
+  "Controllers/Storefront/CategoriesController.cs": {
+    "mtime": 1786175808.2429338,
+    "ast_hash": "098ce41160c06fd1d0a4681b9b790abf",
+    "semantic_hash": "098ce41160c06fd1d0a4681b9b790abf"
+  },
+  "Controllers/Storefront/CheckoutController.cs": {
+    "mtime": 1786176054.521804,
+    "ast_hash": "738785b611494921f9ec5e30f33415af",
+    "semantic_hash": "738785b611494921f9ec5e30f33415af"
+  },
+  "Controllers/Storefront/CouponsController.cs": {
+    "mtime": 1786176056.5688694,
+    "ast_hash": "6766df0e71152507a26dc3b7db968b97",
+    "semantic_hash": "6766df0e71152507a26dc3b7db968b97"
+  },
+  "Controllers/Storefront/FavoritesController.cs": {
+    "mtime": 1786174192.6843317,
+    "ast_hash": "abeefa8a83f2a0242143128732a2d1a8",
+    "semantic_hash": "abeefa8a83f2a0242143128732a2d1a8"
+  },
+  "Controllers/Storefront/LookupsController.cs": {
+    "mtime": 1786176357.620214,
+    "ast_hash": "333a37445d463d6481f74d9e4bcfe8a0",
+    "semantic_hash": "333a37445d463d6481f74d9e4bcfe8a0"
+  },
+  "Controllers/Storefront/OrdersController.cs": {
+    "mtime": 1786175155.9785483,
+    "ast_hash": "ba313eef533fc6b102edff9c00998285",
+    "semantic_hash": "ba313eef533fc6b102edff9c00998285"
+  },
+  "Controllers/Storefront/ReviewsController.cs": {
+    "mtime": 1786174867.336211,
+    "ast_hash": "57df4754cbe18bb6646b300aa05e5c71",
+    "semantic_hash": "57df4754cbe18bb6646b300aa05e5c71"
+  },
+  "DTOs/Responses/AttributeDtos.cs": {
+    "mtime": 1786176323.1428554,
+    "ast_hash": "e197ce82473bc7124bf8e2ef8929b9c0",
+    "semantic_hash": "e197ce82473bc7124bf8e2ef8929b9c0"
+  },
+  "DTOs/Responses/AuthDtos.cs": {
+    "mtime": 1786175898.3112204,
+    "ast_hash": "e31d5b6f49594b121b66fbdc073782f9",
+    "semantic_hash": "e31d5b6f49594b121b66fbdc073782f9"
+  },
+  "DTOs/Responses/BannerDtos.cs": {
+    "mtime": 1786176285.051924,
+    "ast_hash": "894e363b336fc1fd1729583a137b4562",
+    "semantic_hash": "894e363b336fc1fd1729583a137b4562"
+  },
+  "DTOs/Responses/CartDtos.cs": {
+    "mtime": 1786175564.5980122,
+    "ast_hash": "d0495144188f97a3211344b272168b0e",
+    "semantic_hash": "d0495144188f97a3211344b272168b0e"
+  },
+  "DTOs/Responses/CategoryDtos.cs": {
+    "mtime": 1786175778.4689167,
+    "ast_hash": "56fb44059ee161a883ccc2797fb4a5e7",
+    "semantic_hash": "56fb44059ee161a883ccc2797fb4a5e7"
+  },
+  "DTOs/Responses/CouponDtos.cs": {
+    "mtime": 1786172839.445604,
+    "ast_hash": "7ffe31e98dcd7a40362257748f27582f",
+    "semantic_hash": "7ffe31e98dcd7a40362257748f27582f"
+  },
+  "DTOs/Responses/CustomerDtos.cs": {
+    "mtime": 1786174474.1336775,
+    "ast_hash": "a14d59096507241f2f7d358d6714f1c5",
+    "semantic_hash": "a14d59096507241f2f7d358d6714f1c5"
+  },
+  "DTOs/Responses/FavoriteDtos.cs": {
+    "mtime": 1786174116.1332028,
+    "ast_hash": "bb511ee7abda5e0fd4eec5a9cc29431d",
+    "semantic_hash": "bb511ee7abda5e0fd4eec5a9cc29431d"
+  },
+  "DTOs/Responses/OrderDtos.cs": {
+    "mtime": 1786176039.1305823,
+    "ast_hash": "80b27f28170e3c0823996a12982c728d",
+    "semantic_hash": "80b27f28170e3c0823996a12982c728d"
+  },
+  "DTOs/Responses/ProductDtos.cs": {
+    "mtime": 1786171958.1186192,
+    "ast_hash": "8656711263f1a5f673dbc99d63e54bb0",
+    "semantic_hash": "8656711263f1a5f673dbc99d63e54bb0"
+  },
+  "DTOs/Responses/ProfileDtos.cs": {
+    "mtime": 1786176001.2241702,
+    "ast_hash": "4a156f6e80bb0e6b4d47e82c752bbf1c",
+    "semantic_hash": "4a156f6e80bb0e6b4d47e82c752bbf1c"
+  },
+  "DTOs/Responses/ReviewDtos.cs": {
+    "mtime": 1786174845.5197606,
+    "ast_hash": "d943b12b138335c40acd42d3c69f18f2",
+    "semantic_hash": "d943b12b138335c40acd42d3c69f18f2"
+  },
+  "DTOs/Responses/ShippingDtos.cs": {
+    "mtime": 1786172465.704056,
+    "ast_hash": "ee3bc093724b29b0a96b7826db60eab6",
+    "semantic_hash": "ee3bc093724b29b0a96b7826db60eab6"
+  },
+  "DataAccess/AppDbContext.cs": {
+    "mtime": 1786173865.0450766,
+    "ast_hash": "7b423471d1c26e9614cb738264e07e7f",
+    "semantic_hash": "7b423471d1c26e9614cb738264e07e7f"
+  },
+  "DataAccess/Configurations/CouponConfiguration.cs": {
+    "mtime": 1786138578.0058074,
+    "ast_hash": "6c4af64c4746fed44316e098d4f58b45",
+    "semantic_hash": "6c4af64c4746fed44316e098d4f58b45"
+  },
+  "DataAccess/Configurations/OrderConfiguration.cs": {
+    "mtime": 1786138578.0058074,
+    "ast_hash": "736e390054e4aa0dc4a70ef1bacc6793",
+    "semantic_hash": "736e390054e4aa0dc4a70ef1bacc6793"
+  },
+  "DataAccess/Configurations/ProductConfiguration.cs": {
+    "mtime": 1786138578.006807,
+    "ast_hash": "473a89f780bc851518572853012cae83",
+    "semantic_hash": "473a89f780bc851518572853012cae83"
+  },
+  "DataAccess/DataSeeder.cs": {
+    "mtime": 1786176671.9794526,
+    "ast_hash": "194127e1c8f46c2890e595c51bf9a9c3",
+    "semantic_hash": "194127e1c8f46c2890e595c51bf9a9c3"
+  },
+  "E-commerce2.csproj": {
+    "mtime": 1786175887.4251285,
+    "ast_hash": "91b42ef0b2c7bdfe31e81aef9c2b501d",
+    "semantic_hash": "91b42ef0b2c7bdfe31e81aef9c2b501d"
+  },
+  "Migrations/20260808033532_InitialCreate.Designer.cs": {
+    "mtime": 1786160132.871046,
+    "ast_hash": "e2ea24488646b08551fa99a1697612f5",
+    "semantic_hash": "e2ea24488646b08551fa99a1697612f5"
+  },
+  "Migrations/20260808033532_InitialCreate.cs": {
+    "mtime": 1786160132.8700478,
+    "ast_hash": "58f954048634fa9223ffd455edb00896",
+    "semantic_hash": "58f954048634fa9223ffd455edb00896"
+  },
+  "Migrations/20260808034342_AddAdminNotesToOrder.Designer.cs": {
+    "mtime": 1786160622.3367498,
+    "ast_hash": "9781b4bed4d4ca032ed3ebc7440b29e3",
+    "semantic_hash": "9781b4bed4d4ca032ed3ebc7440b29e3"
+  },
+  "Migrations/20260808034342_AddAdminNotesToOrder.cs": {
+    "mtime": 1786160622.3367498,
+    "ast_hash": "274e03cdb23aea2741e86d5a4533631a",
+    "semantic_hash": "274e03cdb23aea2741e86d5a4533631a"
+  },
+  "Migrations/20260808070306_AddShippingEntities.Designer.cs": {
+    "mtime": 1786172586.1247692,
+    "ast_hash": "cd68f21520d4ec7e75cd0f57dcae4c87",
+    "semantic_hash": "cd68f21520d4ec7e75cd0f57dcae4c87"
+  },
+  "Migrations/20260808070306_AddShippingEntities.cs": {
+    "mtime": 1786172586.123766,
+    "ast_hash": "2320a291b45975de7766ad77ed9e47df",
+    "semantic_hash": "2320a291b45975de7766ad77ed9e47df"
+  },
+  "Migrations/20260808071419_AddReviewsTable.Designer.cs": {
+    "mtime": 1786173259.521111,
+    "ast_hash": "8514a5dbe8cc4cbc359980c6f5f45ea0",
+    "semantic_hash": "8514a5dbe8cc4cbc359980c6f5f45ea0"
+  },
+  "Migrations/20260808071419_AddReviewsTable.cs": {
+    "mtime": 1786173259.521111,
+    "ast_hash": "36adf566d75656c9bbe92dcdfbe2a411",
+    "semantic_hash": "36adf566d75656c9bbe92dcdfbe2a411"
+  },
+  "Migrations/20260808072512_AddFavoritesTable.Designer.cs": {
+    "mtime": 1786173912.9875216,
+    "ast_hash": "1a47f4a9fd6eb27600e52f0ca05044aa",
+    "semantic_hash": "1a47f4a9fd6eb27600e52f0ca05044aa"
+  },
+  "Migrations/20260808072512_AddFavoritesTable.cs": {
+    "mtime": 1786173912.9865198,
+    "ast_hash": "98a9d890f0646a3c8c6a8893eebcd3e9",
+    "semantic_hash": "98a9d890f0646a3c8c6a8893eebcd3e9"
+  },
+  "Migrations/20260808073809_AddCreatedAtToUser.Designer.cs": {
+    "mtime": 1786174689.2625449,
+    "ast_hash": "e85714f30cc5316ebf53341f69d801bc",
+    "semantic_hash": "e85714f30cc5316ebf53341f69d801bc"
+  },
+  "Migrations/20260808073809_AddCreatedAtToUser.cs": {
+    "mtime": 1786174689.2625449,
+    "ast_hash": "4cf1ff79f4ce63437c7b7b31a5788c90",
+    "semantic_hash": "4cf1ff79f4ce63437c7b7b31a5788c90"
+  },
+  "Migrations/20260808081228_Phase3_Final_Models.Designer.cs": {
+    "mtime": 1786176749.0172381,
+    "ast_hash": "167398c4363638cc63d0f4775b4ee57a",
+    "semantic_hash": "167398c4363638cc63d0f4775b4ee57a"
+  },
+  "Migrations/20260808081228_Phase3_Final_Models.cs": {
+    "mtime": 1786176749.016237,
+    "ast_hash": "4b7d50f399e33bf25373cae0e2c4162b",
+    "semantic_hash": "4b7d50f399e33bf25373cae0e2c4162b"
+  },
+  "Migrations/AppDbContextModelSnapshot.cs": {
+    "mtime": 1786176749.0182374,
+    "ast_hash": "fb39b46ea6f9c9d1415c865e395874c1",
+    "semantic_hash": "fb39b46ea6f9c9d1415c865e395874c1"
+  },
+  "Models/Banner.cs": {
+    "mtime": 1786138578.0108068,
+    "ast_hash": "0ff4a5f19aa8227231d00ab31984b4f2",
+    "semantic_hash": "0ff4a5f19aa8227231d00ab31984b4f2"
+  },
+  "Models/BaseEntity.cs": {
+    "mtime": 1786138578.0108068,
+    "ast_hash": "29a60f371301cbc34e1f8ab9b4539293",
+    "semantic_hash": "29a60f371301cbc34e1f8ab9b4539293"
+  },
+  "Models/Cart.cs": {
+    "mtime": 1786138578.011807,
+    "ast_hash": "88e0e1bdff61fde97ebe38b01b6b9372",
+    "semantic_hash": "88e0e1bdff61fde97ebe38b01b6b9372"
+  },
+  "Models/Category.cs": {
+    "mtime": 1786138578.011807,
+    "ast_hash": "7b238b14c6bd49617034e705408c8f2c",
+    "semantic_hash": "7b238b14c6bd49617034e705408c8f2c"
+  },
+  "Models/Color.cs": {
+    "mtime": 1786138578.011807,
+    "ast_hash": "429a8d1c7e921298553f5e0267d1bf80",
+    "semantic_hash": "429a8d1c7e921298553f5e0267d1bf80"
+  },
+  "Models/Coupon.cs": {
+    "mtime": 1786138578.0128078,
+    "ast_hash": "cd6fd95b92ef1d04563f04e3942178e3",
+    "semantic_hash": "cd6fd95b92ef1d04563f04e3942178e3"
+  },
+  "Models/Enums/Enums.cs": {
+    "mtime": 1786138578.0128078,
+    "ast_hash": "689b6327884a009ee5481ba2b854067c",
+    "semantic_hash": "689b6327884a009ee5481ba2b854067c"
+  },
+  "Models/Enums/ReviewStatus.cs": {
+    "mtime": 1786173133.3787625,
+    "ast_hash": "027ee6d461e2db3effe78488735a6a2d",
+    "semantic_hash": "027ee6d461e2db3effe78488735a6a2d"
+  },
+  "Models/Favorite.cs": {
+    "mtime": 1786173858.9091763,
+    "ast_hash": "68bb089abd9f31a68099ddaca954f39d",
+    "semantic_hash": "68bb089abd9f31a68099ddaca954f39d"
+  },
+  "Models/Governorate.cs": {
+    "mtime": 1786172437.651198,
+    "ast_hash": "2a36757aebc53d664783527577dc71c9",
+    "semantic_hash": "2a36757aebc53d664783527577dc71c9"
+  },
+  "Models/Order.cs": {
+    "mtime": 1786172449.902262,
+    "ast_hash": "9cb5d0df86536e94c8f94f2a46a18f8f",
+    "semantic_hash": "9cb5d0df86536e94c8f94f2a46a18f8f"
+  },
+  "Models/Product.cs": {
+    "mtime": 1786173863.0044112,
+    "ast_hash": "735e0eddf0459418e6ebcb8b24255ac0",
+    "semantic_hash": "735e0eddf0459418e6ebcb8b24255ac0"
+  },
+  "Models/Review.cs": {
+    "mtime": 1786173135.4390852,
+    "ast_hash": "6f7e4e11b888f73bebccde01d5961191",
+    "semantic_hash": "6f7e4e11b888f73bebccde01d5961191"
+  },
+  "Models/StoreSetting.cs": {
+    "mtime": 1786172439.6885684,
+    "ast_hash": "b6c52f3bcf8b6a744197fd06b96abf18",
+    "semantic_hash": "b6c52f3bcf8b6a744197fd06b96abf18"
+  },
+  "Models/User.cs": {
+    "mtime": 1786176000.0218134,
+    "ast_hash": "350767181a40400343a0b2fffc1b64e4",
+    "semantic_hash": "350767181a40400343a0b2fffc1b64e4"
+  },
+  "Program.cs": {
+    "mtime": 1786176782.383131,
+    "ast_hash": "258e20c0edfdf32976639e8495b22b4a",
+    "semantic_hash": "258e20c0edfdf32976639e8495b22b4a"
+  },
+  "Properties/launchSettings.json": {
+    "mtime": 1786138578.014807,
+    "ast_hash": "7ec1a1beb3c1f2e52a47bf8e7e3bbdfe",
+    "semantic_hash": "7ec1a1beb3c1f2e52a47bf8e7e3bbdfe"
+  },
+  "Repositories/GenericRepository.cs": {
+    "mtime": 1786138578.0158095,
+    "ast_hash": "7ccb1c88c8208603871e561871ba104a",
+    "semantic_hash": "7ccb1c88c8208603871e561871ba104a"
+  },
+  "Repositories/Interfaces/IRepositories.cs": {
+    "mtime": 1786176324.402928,
+    "ast_hash": "e490e9dd292d00051b36f6fdffba0a82",
+    "semantic_hash": "e490e9dd292d00051b36f6fdffba0a82"
+  },
+  "Repositories/SpecificRepositories.cs": {
+    "mtime": 1786176325.44132,
+    "ast_hash": "4a31504a5d6bf4cf32a974a6a997344c",
+    "semantic_hash": "4a31504a5d6bf4cf32a974a6a997344c"
+  },
+  "Repositories/UnitOfWork.cs": {
+    "mtime": 1786138578.0168087,
+    "ast_hash": "c2414b11a70eaa8ef0e065a6d2d5f781",
+    "semantic_hash": "c2414b11a70eaa8ef0e065a6d2d5f781"
+  },
+  "Services/AttributeService.cs": {
+    "mtime": 1786176342.229652,
+    "ast_hash": "726aa0c98f43d3c224765b314b1ab496",
+    "semantic_hash": "726aa0c98f43d3c224765b314b1ab496"
+  },
+  "Services/AuthService.cs": {
+    "mtime": 1786175924.5359793,
+    "ast_hash": "d616cfe39596c2fdbd56671013899b54",
+    "semantic_hash": "d616cfe39596c2fdbd56671013899b54"
+  },
+  "Services/BannerService.cs": {
+    "mtime": 1786176307.243724,
+    "ast_hash": "e8c27083c2fdf2ae1c8f1ffc22e18ec7",
+    "semantic_hash": "e8c27083c2fdf2ae1c8f1ffc22e18ec7"
+  },
+  "Services/CartService.cs": {
+    "mtime": 1786175755.5175374,
+    "ast_hash": "27303855424c3394ec800d92f0489530",
+    "semantic_hash": "27303855424c3394ec800d92f0489530"
+  },
+  "Services/CategoryService.cs": {
+    "mtime": 1786175833.2134385,
+    "ast_hash": "d1e1b6e4a8b504cbedd847bcc9965404",
+    "semantic_hash": "d1e1b6e4a8b504cbedd847bcc9965404"
+  },
+  "Services/CouponAdminService.cs": {
+    "mtime": 1786172862.977695,
+    "ast_hash": "ca1dfe0d33743bc9c731e0a9071d853b",
+    "semantic_hash": "ca1dfe0d33743bc9c731e0a9071d853b"
+  },
+  "Services/CouponService.cs": {
+    "mtime": 1786176052.4693997,
+    "ast_hash": "7c310d0de73a2e65cbc6e6ce505a301f",
+    "semantic_hash": "7c310d0de73a2e65cbc6e6ce505a301f"
+  },
+  "Services/CustomerAdminService.cs": {
+    "mtime": 1786174632.015651,
+    "ast_hash": "4a2f3cc0b6224dd8a480915b67deea0a",
+    "semantic_hash": "4a2f3cc0b6224dd8a480915b67deea0a"
+  },
+  "Services/FavoriteService.cs": {
+    "mtime": 1786174402.7345817,
+    "ast_hash": "8cbcaefd9311fa30219b9f966d28d708",
+    "semantic_hash": "8cbcaefd9311fa30219b9f966d28d708"
+  },
+  "Services/FileService.cs": {
+    "mtime": 1786176780.115203,
+    "ast_hash": "9f77507bbbdd41d581027965a0aee15a",
+    "semantic_hash": "9f77507bbbdd41d581027965a0aee15a"
+  },
+  "Services/Interfaces/IServices.cs": {
+    "mtime": 1786176779.0832095,
+    "ast_hash": "51291ad441abf06bf07a000c6a21b7ed",
+    "semantic_hash": "51291ad441abf06bf07a000c6a21b7ed"
+  },
+  "Services/OrderService.cs": {
+    "mtime": 1786176040.315832,
+    "ast_hash": "ff03ac8f46aef682e9a00c39907f5037",
+    "semantic_hash": "ff03ac8f46aef682e9a00c39907f5037"
+  },
+  "Services/ProductService.cs": {
+    "mtime": 1786172044.0849538,
+    "ast_hash": "511ec27ab75e9619c5d52bbb4edd18a6",
+    "semantic_hash": "511ec27ab75e9619c5d52bbb4edd18a6"
+  },
+  "Services/ProfileService.cs": {
+    "mtime": 1786176002.5376306,
+    "ast_hash": "1ff682a04596f01f6103720df8c5a6d0",
+    "semantic_hash": "1ff682a04596f01f6103720df8c5a6d0"
+  },
+  "Services/ReviewAdminService.cs": {
+    "mtime": 1786173194.502495,
+    "ast_hash": "4eb0fe85809c1b52f603baa8ec7b2c9e",
+    "semantic_hash": "4eb0fe85809c1b52f603baa8ec7b2c9e"
+  },
+  "Services/ReviewService.cs": {
+    "mtime": 1786174849.6241565,
+    "ast_hash": "6ce31ce5f8c714d5102c8f0100813d0f",
+    "semantic_hash": "6ce31ce5f8c714d5102c8f0100813d0f"
+  },
+  "Services/ShippingService.cs": {
+    "mtime": 1786172498.971612,
+    "ast_hash": "43bb16b91b0ff7cc475719b90ac8082f",
+    "semantic_hash": "43bb16b91b0ff7cc475719b90ac8082f"
+  },
+  "Utilities/IGenericRepository.cs": {
+    "mtime": 1786138578.0188081,
+    "ast_hash": "a7c0a3aba0b5d474935ba03b88a81563",
+    "semantic_hash": "a7c0a3aba0b5d474935ba03b88a81563"
+  },
+  "Utilities/PaginatedList.cs": {
+    "mtime": 1786160351.844774,
+    "ast_hash": "6af872daab59ef01ff7e4d12038a9aa2",
+    "semantic_hash": "6af872daab59ef01ff7e4d12038a9aa2"
+  },
+  "Utilities/Result.cs": {
+    "mtime": 1786138578.0198064,
+    "ast_hash": "daeb531db08841c3aa7cc40975d8a623",
+    "semantic_hash": "daeb531db08841c3aa7cc40975d8a623"
+  },
+  "Utilities/SD.cs": {
+    "mtime": 1786138578.0198064,
+    "ast_hash": "6281896e56ad09f0e1a5acf409972957",
+    "semantic_hash": "6281896e56ad09f0e1a5acf409972957"
+  },
+  "appsettings.Development.json": {
+    "mtime": 1786138578.0198064,
+    "ast_hash": "4fd30e8175bd15ddf275160468f55b01",
+    "semantic_hash": "4fd30e8175bd15ddf275160468f55b01"
+  },
+  "appsettings.json": {
+    "mtime": 1786175896.2939806,
+    "ast_hash": "976755ca0589b9a07d6cae41806b7a52",
+    "semantic_hash": "976755ca0589b9a07d6cae41806b7a52"
+  }
+}
