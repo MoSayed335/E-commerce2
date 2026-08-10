@@ -3,6 +3,7 @@ namespace ECommerce2.DTOs
     public record CreateOrderItemDto(int ProductVariantId, int Quantity);
 
     public record CreateOrderDto(
+
         int UserAddressId,
         string? CouponCode,
         string? Notes,

@@ -1,3 +1,4 @@
+
 using ECommerce2.DataAccess;
 using ECommerce2.Models;
 using ECommerce2.Repositories;
@@ -34,7 +35,6 @@ namespace E_commerce2
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddOpenApi();
-
 
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -135,7 +135,6 @@ namespace E_commerce2
             app.UseStaticFiles();
 
             app.UseCors("MyPolicy"); // Wait, previously it was UseCors("AllowAll"), but the code up there defines "MyPolicy"
-
             app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllers();

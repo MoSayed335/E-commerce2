@@ -40,7 +40,6 @@ namespace ECommerce2.DataAccess
         public DbSet<StoreSetting> StoreSettings => Set<StoreSetting>();
         public DbSet<Review> Reviews => Set<Review>();
         public DbSet<Favorite> Favorites => Set<Favorite>();
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
