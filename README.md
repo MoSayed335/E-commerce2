@@ -1,43 +1,98 @@
-# E-commerce2
+<div align="center">
 
-A full-featured e-commerce REST API built with **ASP.NET Core 9** and **Entity Framework Core**, providing storefront, customer, and admin capabilities for managing products, orders, carts, coupons, reviews, shipping, and more.
+# 🛒 E-commerce2
 
-## Tech Stack
+**A full-featured e-commerce REST API built with ASP.NET Core 9 & Entity Framework Core**
 
-- **Framework:** ASP.NET Core 9.0 (Web API)
-- **ORM:** Entity Framework Core 9.0 (SQL Server)
-- **Auth:** ASP.NET Core Identity + JWT Bearer authentication
-- **API Docs:** Scalar (OpenAPI UI)
-- **Architecture:** Repository + Unit of Work pattern, layered Services/Controllers/DTOs
+Storefront browsing • Cart & checkout • Coupons • Reviews • Admin dashboard API
 
-## Features
+[![.NET](https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com/)
+[![EF Core](https://img.shields.io/badge/EF%20Core-9.0-512BD4?style=flat-square)](https://learn.microsoft.com/ef/core/)
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-LocalDB-CC2927?style=flat-square&logo=microsoftsqlserver)](https://www.microsoft.com/sql-server)
+[![JWT Auth](https://img.shields.io/badge/Auth-JWT%20Bearer-000000?style=flat-square&logo=jsonwebtokens)](https://jwt.io/)
+[![License](https://img.shields.io/badge/License-Unlicensed-lightgrey?style=flat-square)](#license)
 
-### Storefront (Public / Customer-facing)
-- Browse products by category, view product details and variants (color/size)
-- Category listing, banners, and lookups (colors, sizes, governorates)
+</div>
+
+---
+
+## 📦 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| **Framework** | ASP.NET Core 9.0 (Web API) |
+| **ORM** | Entity Framework Core 9.0 (SQL Server) |
+| **Auth** | ASP.NET Core Identity + JWT Bearer authentication |
+| **API Docs** | Scalar (OpenAPI UI) |
+| **Architecture** | Repository + Unit of Work, layered Services / Controllers / DTOs |
+| **Result Handling** | Custom `Result<T>` wrapper (no exceptions for expected failures) |
+
+---
+
+## ✨ Features
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+### 🛍️ Storefront
+*(Public / Customer-facing)*
+
+- Browse products by category
+- Product details & variants (color/size)
+- Banners, lookups (colors, sizes, governorates)
 - Shopping cart management
-- Checkout with coupon support and shipping calculation
-- Order tracking by order number + email
-- Product reviews (submit & view)
-- Favorites (wishlist)
-- User profile & address book
+- Checkout with coupons & shipping calc
+- Order tracking by order # + email
+- Submit & view product reviews
+- Favorites / wishlist
+- Profile & address book
 
-### Admin Panel API
-- Product, category, color, size (attribute) management
-- Order management (status updates, cancellation, admin notes)
-- Coupon management with campaign/redemption tracking
-- Banner management (homepage promotions)
-- Review moderation (approve/reject, pin, live urgency counter)
-- Customer list & summary
-- Shipping settings (free-shipping threshold, per-governorate rates)
-- Image/file uploads
+</td>
+<td valign="top" width="33%">
 
-### Auth & Identity
-- User registration/login with JWT issuance
-- Role-based authorization (`Admin`, `Customer`)
-- Seeded default admin account on first run
+### 🛠️ Admin API
 
-## Project Structure
+- Product / category / attribute mgmt
+- Order management & status updates
+- Coupon mgmt + campaign tracking
+- Banner management
+- Review moderation & pinning
+- Customer list & summaries
+- Shipping settings & rates
+- Image / file uploads
+
+</td>
+<td valign="top" width="33%">
+
+### 🔐 Auth & Identity
+
+- Registration & login
+- JWT token issuance
+- Role-based authorization
+  (`Admin`, `Customer`)
+- Seeded roles & starter data
+  on first run
+
+</td>
+</tr>
+</table>
+
+### 🗺️ High-Level Flow
+
+```mermaid
+flowchart LR
+    A[Guest] -->|Register / Login| B(JWT Token)
+    B --> C{Role}
+    C -->|Customer| D[Storefront API<br/>Cart · Checkout · Orders · Reviews]
+    C -->|Admin| E[Admin API<br/>Products · Orders · Coupons · Banners]
+    D --> F[(SQL Server)]
+    E --> F
+```
+
+---
+
+## 🗂️ Project Structure
 
 ```
 E-commerce2/
@@ -75,7 +130,9 @@ E-commerce2/
 └── Program.cs                       # App startup, DI registration, middleware pipeline
 ```
 
-## Getting Started
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
 - [.NET 9 SDK](https://dotnet.microsoft.com/download)
@@ -112,16 +169,11 @@ E-commerce2/
 
    In development mode, an OpenAPI reference UI is available via Scalar at the app's root/`/scalar` route once running.
 
-### Default Admin Account
+> ℹ️ **Seeded data:** On first run, `DataSeeder` creates the `Admin`/`Customer` roles, a default admin account, a default governorate, and base store settings so the API is usable immediately. Check `DataAccess/DataSeeder.cs` and update the seeded credentials before using this in any shared or production environment.
 
-On first run, `DataSeeder` creates:
-- **Email:** `admin@admin.com`
-- **Password:** `Admin123!`
-- **Role:** `Admin`
+---
 
-> ⚠️ Change this password before deploying to any shared or production environment.
-
-## Authentication
+## 🔑 Authentication
 
 The API uses JWT Bearer tokens. Configure the JWT section in `appsettings.json`:
 
@@ -138,25 +190,45 @@ The API uses JWT Bearer tokens. Configure the JWT section in `appsettings.json`:
 2. `POST /api/Auth/login` — obtain a JWT
 3. Include the token as `Authorization: Bearer <token>` on subsequent requests to protected endpoints
 
-## Key API Areas
+---
 
-| Area | Base Route | Notes |
-|---|---|---|
-| Auth | `/api/Auth` | Register, Login |
-| Profile | `/api/Profile` | Requires auth |
-| Storefront | `/api/storefront/*` | Public browsing + authenticated cart/checkout/favorites |
-| Customer Orders | `/api/Orders` | Requires auth |
-| Admin | `/api/admin/*` | Requires `Admin` role |
+## 📍 Key API Areas
 
-> ⚠️ **Note:** `appsettings.json` in this repository contains a placeholder JWT signing key committed to source control. Rotate this secret (e.g. via user secrets or environment variables) before any real deployment.
+| Area | Base Route | Access |
+|---|---|:---:|
+| Auth | `/api/Auth` | 🌐 Public |
+| Profile | `/api/Profile` | 🔒 Authenticated |
+| Storefront (browse) | `/api/storefront/*` | 🌐 Public |
+| Storefront (cart/checkout/favorites) | `/api/storefront/*` | 🔒 Authenticated |
+| Customer Orders | `/api/Orders` | 🔒 Authenticated |
+| Admin | `/api/admin/*` | 🛡️ Admin role |
 
-## Architecture Notes
+> ⚠️ **Security note:** `appsettings.json` in this repository contains a placeholder JWT signing key and seeded credentials committed to source control. Rotate these secrets (e.g. via user secrets or environment variables) before any real deployment.
 
-- **Result Pattern:** Services return a `Result<T>` (see `Utilities/Result.cs`) to represent success/failure without throwing exceptions for expected business errors.
-- **Pagination:** List endpoints commonly return a `PaginatedList<T>` for consistent paging metadata.
-- **Repository + Unit of Work:** Data access is abstracted through `IGenericRepository<T>` / specific repositories, coordinated by `IUnitOfWork` for transactional `SaveChanges`.
-- **Soft Deletes:** Products use a query filter (`IsDeleted`) so removed products are excluded from queries without losing historical data (e.g., for past orders).
+---
 
-## License
+## 🧱 Architecture Notes
+
+- **Result Pattern** — Services return a `Result<T>` (see `Utilities/Result.cs`) to represent success/failure without throwing exceptions for expected business errors.
+- **Pagination** — List endpoints commonly return a `PaginatedList<T>` for consistent paging metadata.
+- **Repository + Unit of Work** — Data access is abstracted through `IGenericRepository<T>` / specific repositories, coordinated by `IUnitOfWork` for transactional `SaveChanges`.
+- **Soft Deletes** — Products use a query filter (`IsDeleted`) so removed products are excluded from queries without losing historical data (e.g., for past orders).
+
+```mermaid
+flowchart TB
+    Ctrl[Controller] --> Svc[Service]
+    Svc --> Repo[Repository]
+    Repo --> UoW[Unit of Work]
+    UoW --> DB[(SQL Server via EF Core)]
+    Svc -->|Result&lt;T&gt;| Ctrl
+```
+
+---
+
+## 📄 License
+
+<div align="center">
 
 Add your license of choice here.
+
+</div>
